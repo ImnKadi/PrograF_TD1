@@ -6,17 +6,3 @@ package PrograF_TD1;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
-
-
-public class AppTest{
-
-public static void testarbre(){
-
-    /*
-    Arbre<E> un = new Feuille<>(new Entier(1));
-    Arbre<E> deux = new Feuille<>(new Entier(2));
-    assertEquals(0,arbre().taille());
-
-}
-
-}

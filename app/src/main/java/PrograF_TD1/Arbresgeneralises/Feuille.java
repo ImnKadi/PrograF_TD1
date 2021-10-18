@@ -1,4 +1,5 @@
-package PrograF_TD1;
+package PrograF_TD1.Arbresgeneralises;
+
 public class Feuille<T> implements Arbre<T> {
 
     private final T valeur;
@@ -21,5 +22,5 @@ public class Feuille<T> implements Arbre<T> {
     public Set<T> valeurs() {
         return Set.of(valeur);
     }
-    
+
 }
