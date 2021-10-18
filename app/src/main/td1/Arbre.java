@@ -12,3 +12,4 @@ public class Arbre {
     boolean estTrie();
 }
     
+    
