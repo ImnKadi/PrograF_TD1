@@ -1,5 +1,7 @@
 package PrograF_TD1.Arbresgeneralises;
 
+import java.util.Set;
+
 public class Feuille<T> implements Arbre<T> {
 
     private final T valeur;
@@ -11,6 +13,11 @@ public class Feuille<T> implements Arbre<T> {
     @Override
     public int taille() {
         return 1;
+    }
+
+    @Override
+    public boolean contient(Integer val) {
+        return false;
     }
 
     @Override

@@ -3,6 +3,31 @@
  */
 package PrograF_TD1;
 
+import PrograF_TD1.Arbresgeneralises.Arbre;
+import PrograF_TD1.Arbresgeneralises.Entier;
+import PrograF_TD1.Arbresgeneralises.Feuille;
+import PrograF_TD1.Arbresgeneralises.Noeud;
 import org.junit.Test;
+
+import java.util.List;
+import java.util.Set;
+
 import static org.junit.Assert.*;
 
+
+
+public class AppTest{
+
+    @Test
+    public final void testArbre(){
+
+        /* Essai de test*/
+        Arbre<Entier> v1 = new Feuille<>(new Entier(1));
+        Arbre<Entier> v2 = new Feuille<>(new Entier(2));
+        Arbre<Entier> n1 = new Noeud<>(List.of(v1,v2));
+        Arbre<Entier> root = new Noeud<>(List.of(v2,n1);
+        assert(root.taille(),3);
+
+    }
+
+}

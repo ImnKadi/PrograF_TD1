@@ -6,21 +6,32 @@ public class Paire<F,S> implements InterfacePaire<F,S> {
     private S _snd;
 
 
-    public F fst(){
+    public F _fst(){
 
         return _fst();
 
     }
 
     @Override
-    public S snd(){
+    public S _snd(){
 
         return _snd();
 
     }
 
     @Override
-    public changeFst(){
+    public F fst() {
+        return null;
+    }
+
+    @Override
+    public S snd() {
+        return null;
+    }
+
+    @Override
+    public F changeFst(){
+
         return fst();
     }
     @Override
