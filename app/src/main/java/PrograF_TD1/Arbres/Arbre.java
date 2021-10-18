@@ -1,4 +1,4 @@
-package PrograF_TD1;
+package PrograF_TD1.Arbres;
 
 import java.util.Set;
 
@@ -11,5 +11,3 @@ public interface Arbre {
     Integer max();
     boolean estTrie();
 }
-    
-    

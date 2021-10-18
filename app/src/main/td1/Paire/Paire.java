@@ -1,4 +1,4 @@
-package PrograF_TD1;
+package td1.Paire;
 
 class Paire<F,S> implements InterfacePaire<F,S> {
 
