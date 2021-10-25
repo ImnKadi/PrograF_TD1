@@ -18,3 +18,7 @@ m9 → pas fonctionnelle car exception levée si on passe 0 en paramètre
 m10 → fonctionnelle car / double pas traitée pareille 
 m11 → fct 
 c1 → 
+
+
+# TD 2
+
